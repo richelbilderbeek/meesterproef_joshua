@@ -23,7 +23,25 @@ Grade|Description
 4    |Vague answers to the research question
 3    |No answers regarding the research question
 2    |No report, could not get code to run
-1    |Done nothing
+1    |Achieved nothing
 
+Modifier:
+
+ * Good working ethics: +0.5. This is defined as:
+    * Keeps emails short
+    * Makes and keeps promises
+    * Communicates openly, also when something goes wrong
+    * Professionally handles disagreements
+    * Acceptance that things go wrong, with the courage to try again
+
+## Supervision
+
+ * Max 1 hour per week to talk
+ * Max 15 mins per workday to answer emails, will answer within 1 day if
+   emailed before 15:00
+
+## Being supervised
+
+ * Put all notes on this GitHub
 
 
