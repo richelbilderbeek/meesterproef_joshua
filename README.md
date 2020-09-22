@@ -6,7 +6,13 @@ Meesterproef Joshua
     EpitopePrediction, MHCnuggets, NetMHCpanI and NetMHCpanII, similar
     to [https://github.com/richelbilderbeek/ep_vs_mhcn](https://github.com/richelbilderbeek/ep_vs_mhcn)
  * Duration: 200 hours
- * Time: September 2020 to approx February 2021
+ * Time: September 2020 to March 2021
+
+## Schedule
+
+ * November 25th: hand in report ('Profielwerkstuk')
+ * Deadline final report: March 12th
+ * Presentations: March 22 and 23
 
 ## Grading
 
