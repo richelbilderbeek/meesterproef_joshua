@@ -54,10 +54,6 @@ As judged by:
  * Max 15 mins per workday to answer emails, will answer within 1 day if
    emailed before 15:00
 
-## Being supervised
-
- * Put all notes on this GitHub
-
 ## Guidelines for manuscript
 
 Set to the level of a bachelor student.
@@ -83,6 +79,11 @@ Clarity      | 3 | No need for revision
 .            | 1 | Some revision revision needed
 .            | 0 | Major revision revision needed
 
+## Guidelines for reproducibility
+
+ * 'It works on my computer' = bad,
+   'It works on [CI service]' = good
+
 ## Guidelines for work ethics
 
  * Keeps emails short
@@ -90,4 +91,5 @@ Clarity      | 3 | No need for revision
  * Communicates openly, also when something goes wrong
  * Professionally handles disagreements
  * Acceptance that things go wrong, with the courage to try again
+ * Put all notes on this GitHub repo
 
