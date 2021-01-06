@@ -21,16 +21,48 @@ Meesterproef Joshua
 
 Grade|Description
 -----|---------------------------------------------------------------------------------------------------------------------------
-10   |Publish the manuscript in a diamond open access journal
-9    |Clear answer to the research question, manuscript is not fit for review
-8    |Some idea of the answers to the research question, use of Open Science scientific method 
-7    |Some idea of the answers to the research question, use of grey scientific method, good useage of GitHub, fine documentation
-6    |Some idea of the answers to the research question, use of grey scientific method, few commits to GitHub, poor documentation
+10   |Manuscript can be submitted to journal
+9    |Manuscript needs minor corrections
+8    |Manuscript needs some corrections
+7    |Manuscript needs major corrections
+6    |Manuscript satisifies the minimal needs of a scientific article [*]
 5    |Incorrect, but clearly phrased, answers to the research question
 4    |Vague answers to the research question
 3    |No answers regarding the research question
 2    |No report, could not get code to run
 1    |Achieved nothing
+
+## Grading of manuscript
+
+Section      | n | Feature
+-------------|---|-------------------------
+Abstract     | 1 | Summarizes the paper
+Introduction | 1 | Introduces all concepts needed to pose hypotheses
+Introduction | 2 | Refers to the literature where needed
+Hypotheses   | 1 | Follows logically from introduction
+Methods      | 1 | Does result in accepting/rejecting the hypotheses
+Results      | 1 | Shows the results without interpretation
+Conclusions  | 1 | Accept/reject each hypothesis
+Conclusions  | 3 | Answers the question: 'What are the consequences for the field of biology?'
+Discussion   | 3 | Discusses all features/weaknesses of the study
+Discussion   | 3 | Puts all features/weaknesses of the study in perspective
+References   | 1 | Shows all references
+
+Feature      | n | Observable
+-------------|---|-------------------------
+Clarity      | 3 | No need for revision
+-            | 2 | Only minor revision needed
+-            | 1 | Some revision revision needed
+-            | 0 | Major revision revision needed
+
+Feature         | n | Observable
+----------------|---|-------------------------
+Reproducibility | 3 | Methods are reproducible from script
+-               | 3 | Figures can be reproduced from script
+
+
+
+
 
 Modifier:
 
