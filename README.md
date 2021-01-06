@@ -11,9 +11,21 @@ Meesterproef Joshua
 
 ## Schedule
 
- * November 25th: hand in report ('Profielwerkstuk')
- * Deadline final report: March 12th
- * Presentations: March 22 and 23
+Week|What
+----|-----
+1   |Get started
+2   |.
+3   |.
+4   |.
+5   |.
+6   |.
+7   |.
+8   |.
+9   |.
+10  |Friday Mar 12 17:00: deadline final report
+11  |.
+12  |Mar 22/23: presentation
+.   |?Monday Mar 22 10:00 presentation at MOLIMM?
 
 ## Grading
 
