@@ -51,14 +51,14 @@ References   | 1 | Shows all references
 Feature      | n | Observable
 -------------|---|-------------------------
 Clarity      | 3 | No need for revision
--            | 2 | Only minor revision needed
--            | 1 | Some revision revision needed
--            | 0 | Major revision revision needed
+.            | 2 | Only minor revision needed
+.            | 1 | Some revision revision needed
+.            | 0 | Major revision revision needed
 
 Feature         | n | Observable
 ----------------|---|-------------------------
 Reproducibility | 3 | Methods are reproducible from script
--               | 3 | Figures can be reproduced from script
+.               | 3 | Figures can be reproduced from script
 
 
 
