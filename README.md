@@ -12,7 +12,7 @@ Meesterproef Joshua
 ## Schedule
 
 Week|What
-----|-----
+----|-----------------------------------------
 1   |Get started
 2   |.
 3   |.
@@ -50,9 +50,10 @@ As judged by:
 
 ## Supervision
 
- * Max 1 hour per week to talk
- * Max 15 mins per workday to answer emails, will answer within 1 day if
+ * 5 mins at start of day, 5 mins at end of day
+ * 15 mins per week to answer emails, will answer within 1 day if
    emailed before 15:00
+ * ask questions to MOLIMM students and staff
 
 ## Guidelines for manuscript
 
