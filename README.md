@@ -16,12 +16,12 @@ Week|What
 1   |Get started
 2   |.
 3   |.
-4   |.
+4   |Hand in first draft
 5   |.
 6   |.
-7   |.
+7   |Hand in second draft
 8   |.
-9   |.
+9   |Hand in third draft
 10  |Friday Mar 12 17:00: deadline final report
 11  |.
 12  |Mar 22/23: presentation
@@ -58,6 +58,8 @@ As judged by:
 ## Guidelines for manuscript
 
 Set to the level of a bachelor student.
+
+An example can be found [here](https://github.com/richelbilderbeek/internship_marijn/blob/master/report.md).
 
 Section      | n | Feature
 -------------|---|-------------------------
