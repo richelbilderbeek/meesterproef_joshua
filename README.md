@@ -21,18 +21,34 @@ Meesterproef Joshua
 
 Grade|Description
 -----|---------------------------------------------------------------------------------------------------------------------------
-10   |Manuscript can be submitted to journal
-9    |Manuscript needs minor corrections
-8    |Manuscript needs some corrections
-7    |Manuscript needs major corrections
-6    |Manuscript satisifies the minimal needs of a scientific article [*]
-5    |Incorrect, but clearly phrased, answers to the research question
-4    |Vague answers to the research question
-3    |No answers regarding the research question
-2    |No report, could not get code to run
-1    |Achieved nothing
+10   |Perfect!
+9    |Impressive!
+8    |Good!
+7    |Fine work!
+6    |Meh
+5    |Nah
+4    |Yuck
+3    |Aaargh!
 
-## Grading of manuscript
+As judged by:
+
+ * Manuscript
+ * Reproducibility 
+ * Work ethics
+
+## Supervision
+
+ * Max 1 hour per week to talk
+ * Max 15 mins per workday to answer emails, will answer within 1 day if
+   emailed before 15:00
+
+## Being supervised
+
+ * Put all notes on this GitHub
+
+## Guidelines for manuscript
+
+Set to the level of a bachelor student.
 
 Section      | n | Feature
 -------------|---|-------------------------
@@ -55,32 +71,11 @@ Clarity      | 3 | No need for revision
 .            | 1 | Some revision revision needed
 .            | 0 | Major revision revision needed
 
-Feature         | n | Observable
-----------------|---|-------------------------
-Reproducibility | 3 | Methods are reproducible from script
-.               | 3 | Figures can be reproduced from script
+## Guidelines for work ethics
 
-
-
-
-
-Modifier:
-
- * Good working ethics: +0.5. This is defined as:
-    * Keeps emails short
-    * Makes and keeps promises
-    * Communicates openly, also when something goes wrong
-    * Professionally handles disagreements
-    * Acceptance that things go wrong, with the courage to try again
-
-## Supervision
-
- * Max 1 hour per week to talk
- * Max 15 mins per workday to answer emails, will answer within 1 day if
-   emailed before 15:00
-
-## Being supervised
-
- * Put all notes on this GitHub
-
+ * Keeps emails short
+ * Makes and keeps promises
+ * Communicates openly, also when something goes wrong
+ * Professionally handles disagreements
+ * Acceptance that things go wrong, with the courage to try again
 
