@@ -8,6 +8,7 @@ Meesterproef Joshua
     similar to [https://github.com/richelbilderbeek/ep_vs_mhcn](https://github.com/richelbilderbeek/ep_vs_mhcn)
  * Duration: 200 hours
  * Time: September 2020 to March 2021
+ * Relevant article: [Bianchi et al., 2017](https://www.frontiersin.org/articles/10.3389/fimmu.2017.01118/full)
 
 ## Schedule
 
