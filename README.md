@@ -3,8 +3,8 @@
 Meesterproef Joshua
 
  * Goal: write an academic report, with the hypothesis
-    that the predictions of 3 programs 
-   (EpitopePrediction, MHCnuggets, and NetMHCpanII) match, 
+    that the predictions of 2 programs 
+   EpitopePrediction and MHCnuggets, and NetMHCpanII match, 
     similar to [https://github.com/richelbilderbeek/ep_vs_mhcn](https://github.com/richelbilderbeek/ep_vs_mhcn)
  * Duration: 200 hours
  * Time: September 2020 to March 2021
