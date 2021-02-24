@@ -4,32 +4,32 @@
  
 ## Introduction
 
-Two programs will be used to compare predictions
+We will use the R packages MHCNuggets and EpitopePrediction to predict the ic50 values (....)
 
 ## Hypothesis
 
-The results of the two programs are exactly the same
+We expect MHCNuggets and EpitopePredictions to predict around the same values. And that when the values relative to the other predictions are compared that we get a graph with a straight line through the line y = x.
 
 ## Methods
 
-We use R, and some libraries
+We use the R programming language in RStudio, with the libraries MHCNuggets and EpitopePrediction.
 
 ## Results
 
-They are not the same???!?!?!!!!!?
+The results of MHCNuggets are completely different from the EpitopePrediction results.
 
 ## Conclusion
 
-The programs do something different. One does this and the other does that
+At least one of the libraries is wrong.
 
 ## Discussion
 
-Perhaps the programs work differently
+MHCNuggets predicts the values using tensorflow, EpitopePrediction uses (....). One of these methods is less precise.
 
 ## References
 
-Not Wikipedia
+github
 
 ## Acknowledgements
 
-People exist
+(who/what to put here?)
