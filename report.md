@@ -8,7 +8,7 @@ We will use the R packages MHCNuggets and EpitopePrediction to predict the ic50 
 
 ## Hypothesis
 
-We expect MHCNuggets and EpitopePredictions to predict around the same values. And that when the values relative to the other predictions are compared that we get a graph with a straight line through the line y = x.
+We expect the highest prediction of MHCNuggets to also be the highest prediction of EpitopePredictions.
 
 [RJCB: this is a fine first hypothesis. However, both tools predict IC50 values
 based on different settings (compare predicting Celsius versus Fahrenheit).
@@ -20,24 +20,19 @@ We use the R programming language in RStudio, with the libraries MHCNuggets and 
 
 ## Results
 
-The results of MHCNuggets are completely different from the EpitopePrediction results.
-
-[RJCB: one day, the words 'completely different' should be described
-a bit more precise :-) ]
+There is seemingly no correlation between the results of MHCNuggets and EpitopePrediction, it even happens that one of the higher results of MHCNuggets corresponded to the lower results of EpitopePrediction.
 
 ## Conclusion
 
-At least one of the libraries is wrong.
-
-[RJCB: Or both are wrong, or both are right from their own assumptions]
+Possible is that at least one of the two libraries is wrong. But it's also possible that both are right, but are making different assumptions.
 
 ## Discussion
 
-MHCNuggets predicts the values using tensorflow, EpitopePrediction uses (....). One of these methods is less precise.
+MHCNuggets predicts the values using tensorflow, EpitopePrediction uses (....). One of these methods might be less precise.
 
 ## References
 
-github
+https://github.com/richelbilderbeek/ep_vs_mhcn
 
 ## Acknowledgements
 
