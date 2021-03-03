@@ -17,16 +17,15 @@ Week|What
 1   |Get started
 2   |.
 3   |.
-4   |[?](https://github.com/richelbilderbeek/meesterproef_joshua/issues/10) Hand in first draft
+4   |.
 5   |.
 6   |.
-7   |[?](https://github.com/richelbilderbeek/meesterproef_joshua/issues/10) Hand in second draft
+7   |.
 8   |.
-9   |[?](https://github.com/richelbilderbeek/meesterproef_joshua/issues/10) Hand in third draft
+9   |.
 10  |Friday Mar 12 17:00: deadline final report
 11  |.
 12  |Mar 22/23: presentation
-.   |[?](https://github.com/richelbilderbeek/meesterproef_joshua/issues/11) Monday Mar 22 10:00 presentation at MOLIMM? 
 
 ## Grading
 
