@@ -33,7 +33,3 @@ MHCNuggets predicts the values using tensorflow, EpitopePrediction uses (....). 
 ## References
 
 https://github.com/richelbilderbeek/ep_vs_mhcn
-
-## Acknowledgements
-
-(who/what to put here?)
