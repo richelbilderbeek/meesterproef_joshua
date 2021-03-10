@@ -7,14 +7,21 @@
 [RJCB: add: for what are IC50 predictions used?]
 [RJCB: add: what are these IC50 values for?]
 
-We will use the R packages MHCNuggets and EpitopePrediction to predict the ic50 values of randomly generated Epitopes. (?)
+We will use the R packages MHCNuggets and EpitopePrediction to predict the ic50 values of randomly generated epitopes.
 
-![ep_vs_mhcn.png](ep_vs_mhcn.png) figure 1
+![ep_vs_mhcn.png](ep_vs_mhcn.png) 
+
+> figure 1
+
+[RJCB: add other plot as well]
 
 To compare these results they will be plotted into a scatter plot using the R library ggplot.
 
 [RJCB: what is the problem?]
-![ep_vs_mhcn_perc.png](ep_vs_mhcn_perc.png) figure 2
+
+![ep_vs_mhcn_perc.png](ep_vs_mhcn_perc.png) 
+
+> figure 2
 
 ## Hypothesis
 
@@ -33,9 +40,12 @@ We determine if the prediction is correct by eyeballing, we expect the trend lin
 
 By eyeballing we see that the relative results of MHCNuggets and EpitopePrediction don't 	match up, it even happens that one of the higher results of MHCNuggets corresponded to the lower results of EpitopePrediction, we are able to deduct this from a negative slope, see figure 2.
 
+
 ## Conclusion
 
 Possible is that at least one of the two libraries is wrong. But it's also possible that both are right, but are making different assumptions.
+
+[RJCB: erally? Is there erally a problem for all haplotypes except 1]
 
 ## Discussion
 
