@@ -4,15 +4,13 @@
  
 ## Introduction
 
-We will use the R packages MHCNuggets and EpitopePrediction to predict the ic50 values (....)
+We will use the R packages MHCNuggets and EpitopePrediction to predict the ic50 values of randomly generated Epitopes. (?)
+To compare these results they will be plotted into a scatter plot using the R library ggplot.
 
 ## Hypothesis
 
-We expect the highest prediction of MHCNuggets to also be the highest prediction of EpitopePredictions.
-
-[RJCB: this is a fine first hypothesis. However, both tools predict IC50 values
-based on different settings (compare predicting Celsius versus Fahrenheit).
-The lowest values in tool A, however, should be lowest in tool B]
+We expect the highest prediction of MHCNuggets to also be the highest prediction of EpitopePredictions. We don't expect them to match completely because the calculations could be made using different settings meaning different values can mean the same thing.
+However, by comparing how high a value is compared to other values calculated by the same tool to how high the other tool's values are compared to it's own calculations, we can get an idea of if it corresponds.
 
 ## Methods
 
