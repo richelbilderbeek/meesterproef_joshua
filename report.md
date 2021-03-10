@@ -4,7 +4,7 @@
  
 ## Introduction
 
-[RJCB: add: for what are IC50 predictions used?]
+ic50 values determine how likely a strain is to be presented.
 [RJCB: add: what are these IC50 values for?]
 
 We will use the R packages MHCNuggets and EpitopePrediction to predict the ic50 values of randomly generated epitopes.
@@ -13,7 +13,9 @@ We will use the R packages MHCNuggets and EpitopePrediction to predict the ic50 
 
 > figure 1
 
-[RJCB: add other plot as well]
+![ep_vs_mhcn_log.png](ep_vs_mhcn_log.png)
+
+> figure 2
 
 To compare these results they will be plotted into a scatter plot using the R library ggplot.
 
@@ -21,7 +23,7 @@ To compare these results they will be plotted into a scatter plot using the R li
 
 ![ep_vs_mhcn_perc.png](ep_vs_mhcn_perc.png) 
 
-> figure 2
+> figure 3
 
 ## Hypothesis
 
@@ -38,8 +40,16 @@ We determine if the prediction is correct by eyeballing, we expect the trend lin
 
 ## Results
 
-By eyeballing we see that the relative results of MHCNuggets and EpitopePrediction don't 	match up, it even happens that one of the higher results of MHCNuggets corresponded to the lower results of EpitopePrediction, we are able to deduct this from a negative slope, see figure 2.
+By eyeballing we see that the relative results of MHCNuggets and EpitopePrediction don't match up, it even happens that one of the higher results of MHCNuggets corresponded to the lower results of EpitopePrediction, we are able to deduct this from a negative slope, see figure 3.
+After checking the data we noticed a lot of the data from EpitopePrediction falls within 1% of the highest value, while the data from MHCNuggets is spread out. That's why we decided to try plotting EpitopePrediction on a logarithmic scale while leaving MHCNuggets the same. This resulted in figure 4, and after plotting this on a relative scale we got figure 5.
 
+![ep_vs_mhcn_comp.png](ep_vs_mhcn_comp.png)
+
+> figure 4
+
+![ep_vs_mhcn_perc2.png](ep_vs_mhcn_perc2.png)
+
+> figure 5
 
 ## Conclusion
 
