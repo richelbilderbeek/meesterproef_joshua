@@ -1,13 +1,11 @@
-#Comparing two epitope prediction programs
+# Comparing two epitope prediction programs
 
 * Joshua van Waardenberg
  
 ## Introduction
 
-ic50 values determine how likely a strain is to be presented.
-
-We will use the R packages MHCNuggets and EpitopePrediction to predict the ic50 values of randomly generated epitopes.
-Then scatter plots are created to compare the results of the two libraries and see if they match up.
+The R packages MHCNuggets and EpitopePrediction were used to predict the ic50 values of randomly generated epitopes.
+Then scatter plots were created to compare the results of the two libraries and see if they match up.
 
 ![ep_vs_mhcn.png](ep_vs_mhcn.png) 
 
@@ -30,42 +28,43 @@ This is determined by plotting the relative ic50 values in a graph and seeing if
 
 ## Methods
 
-
+The data is made analyzable by putting it in scatterplots using the R library ggplot.
 We determine if the prediction is correct by eyeballing, we expect the trend lines to have a slope of 1, which would be easy to see in the graph.
 
 ## Results
 
 By eyeballing we see that the relative results of MHCNuggets and EpitopePrediction don't match up, it even happens that one of the higher results of MHCNuggets corresponded to the lower results of EpitopePrediction, we are able to deduct this from a negative slope, see figure 3.
-After checking the data we noticed a lot of the data from EpitopePrediction falls within 1% of the highest value, while the data from MHCNuggets is spread out. That's why we decided to try plotting EpitopePrediction on a logarithmic scale while leaving MHCNuggets the same. This resulted in figure 4, and after plotting this on a relative scale we got figure 5.
+After checking the data we noticed a lot of the data from EpitopePrediction falls within 1% of the highest value, while the data from MHCNuggets is spread out. That's why we decided to try plotting EpitopePrediction on a logarithmic scale while leaving MHCNuggets the same. This resulted in figure 4.
 
 ![ep_vs_mhcn_comp.png](ep_vs_mhcn_comp.png)
 
 > figure 4
 
-![ep_vs_mhcn_perc2.png](ep_vs_mhcn_perc2.png)
-
-> figure 5
-
-We then ordered the results of MHCNuggets and EpitopePrediction to be able to see better if the highest result of MHCNuggets also gives the highest result in EpitopePrediction. Here we expect to see the dots around a clear line. However, the result we got is figure 6.
-
-![ep_vs_mhcn_sort_perc.png](ep_vs_mhcn_sort_perc.png)
-
-> figure 6
-
+We then ordered the results of MHCNuggets and EpitopePrediction to be able to see better if the highest result of MHCNuggets also gives the highest result in EpitopePrediction. Here we expected to see the dots around a clear line. However, the result we got is figure 5.
 There is no clear line visible, and the dots are spread out over the entire graph.
-Possible was that it's incorrect because the values are sorted over all the data, instead of per haplotype. However, after trying that we got a very similar result, as seen in figure 7.
 
 ![ep_vs_mhcn_sort.png](ep_vs_mhcn_sort.png)
 
-> figure 7
+> figure 5
+
+*An example of how the data is sorted:*
+
+ haplotype   | sequence | ep   | mhcn | ep | mhcn
+-------------|----------|------|------|----|------
+HLA-A\*01:01 |REQQPQWHC |8.1   |1.3   |2   |1
+HLA-A\*01:01 |VPVWESKYT |3.9   |2.5   |1   |2
+HLA-A\*01:01 |IRTFCGLPD |14.3  |4.6   |3   |3
+HLA-A\*02:01 |REQQPQWHC |25.3  |4.7   |3   |2
+HLA-A\*02:01 |VPVWESKYT |6.5   |8.2   |1   |3
+HLA-A\*02:01 |IRTFCGLPD |9.8   |2.3   |2   |1
 
 ## Conclusion
 
-The results lead us to believe that at least one of the two libraries is wrong. 
+Figure 5 shows us that at least the first 3 haplotypes go wrong. But the trend line rotates closer to y = x after every haplotype.
 
 ## Discussion
 
-MHCNuggets predicts the values using tensorflow, it might be possible that the algorithm isn't trained well enough to give precise results.
+It's unknown what this strange behavior is caused by. There could be a bug in one of the programs used. But we know for certain that the first 3 haplotypes are incorrect.
 
 ## References
 
