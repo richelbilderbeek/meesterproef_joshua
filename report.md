@@ -5,9 +5,9 @@
 ## Introduction
 
 ic50 values determine how likely a strain is to be presented.
-[RJCB: add: what are these IC50 values for?]
 
 We will use the R packages MHCNuggets and EpitopePrediction to predict the ic50 values of randomly generated epitopes.
+Then scatter plots are created to compare the results of the two libraries and see if they match up.
 
 ![ep_vs_mhcn.png](ep_vs_mhcn.png) 
 
@@ -17,24 +17,19 @@ We will use the R packages MHCNuggets and EpitopePrediction to predict the ic50 
 
 > figure 2
 
-To compare these results they will be plotted into a scatter plot using the R library ggplot.
-
-[RJCB: what is the problem?]
-
 ![ep_vs_mhcn_perc.png](ep_vs_mhcn_perc.png) 
 
 > figure 3
+
+Ideally all the dots are on the line y = x, but the fact that they are not does not mean the results are wrong. We have to analyze these results to see if they are right or wrong.
 
 ## Hypothesis
 
 We expect the highest prediction of MHCNuggets to also be the highest prediction of EpitopePredictions. We don't expect them to match completely because the calculations could be made using different settings meaning different values can mean the same thing.
 This is determined by plotting the relative ic50 values in a graph and seeing if the trend line has a slope of 1.
 
-/However, by comparing how high a value is compared to other values calculated by the same 
-/tool to how high the other tool's values are compared to it's own calculations, we can get
-/ an idea of if it corresponds.
-
 ## Methods
+
 
 We determine if the prediction is correct by eyeballing, we expect the trend lines to have a slope of 1, which would be easy to see in the graph.
 
@@ -51,15 +46,26 @@ After checking the data we noticed a lot of the data from EpitopePrediction fall
 
 > figure 5
 
+We then ordered the results of MHCNuggets and EpitopePrediction to be able to see better if the highest result of MHCNuggets also gives the highest result in EpitopePrediction. Here we expect to see the dots around a clear line. However, the result we got is figure 6.
+
+![ep_vs_mhcn_sort_perc.png](ep_vs_mhcn_sort_perc.png)
+
+> figure 6
+
+There is no clear line visible, and the dots are spread out over the entire graph.
+Possible was that it's incorrect because the values are sorted over all the data, instead of per haplotype. However, after trying that we got a very similar result, as seen in figure 7.
+
+![ep_vs_mhcn_sort.png](ep_vs_mhcn_sort.png)
+
+> figure 7
+
 ## Conclusion
 
-Possible is that at least one of the two libraries is wrong. But it's also possible that both are right, but are making different assumptions.
-
-[RJCB: erally? Is there erally a problem for all haplotypes except 1]
+The results lead us to believe that at least one of the two libraries is wrong. 
 
 ## Discussion
 
-MHCNuggets predicts the values using tensorflow, EpitopePrediction uses (....). One of these methods might be less precise.
+MHCNuggets predicts the values using tensorflow, it might be possible that the algorithm isn't trained well enough to give precise results.
 
 ## References
 
