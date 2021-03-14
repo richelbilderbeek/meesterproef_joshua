@@ -4,7 +4,10 @@
  
 ## Introduction
 
-The R packages MHCNuggets and EpitopePrediction were used to predict the ic50 values of randomly generated epitopes.
+Vaccine development has been important to eradicate many diseases, like with the fairly recent covid-19 vaccines.
+IC50 (inhibitory concentration 50%) is a measure of the concentration at which a biological function is inhibited by 50%, this is important in the development of such vaccines because it also shows how likely a virus is to be found.
+
+In previous research, the R packages MHCNuggets and EpitopePrediction were used to predict the ic50 values of randomly generated epitopes.
 Then scatter plots were created to compare the results of the two libraries and see if they match up.
 
 ![ep_vs_mhcn.png](ep_vs_mhcn.png) 
