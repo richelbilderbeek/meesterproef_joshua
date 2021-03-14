@@ -5,9 +5,9 @@
 ## Introduction
 
 Vaccine development has been important to eradicate many diseases, like with the fairly recent covid-19 vaccines.
-[The immune system uses MHC to present ...]
-[How well MHC present certain peptides is quantified by the IC50 ...]
+The immune system uses MHC to present antigens to the surface of cells. How well it does this with certain peptides is quantified by the IC50.
 IC50 (inhibitory concentration 50%) is a measure of the concentration at which the presentation on the outside of the cell is inhibited by 50%, this is important in the development of such vaccines because it also shows how likely a virus is to be found.
+Higher IC50 means it's less likely to be presented.
 
 In previous research, the R packages MHCNuggets and EpitopePrediction were used to predict the ic50 values of randomly generated epitopes.
 Then scatter plots were created to compare the results of the two libraries and see if they match up.
